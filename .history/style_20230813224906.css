@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(45, 45, 45);
+}
+
+.container{
+
+    margin: auto;
+    width: 80%;
+    min-height: max-conte
+    padding: 100px 50px;
+    box-sizing: border-box;
+
+}
+
+
+
+.container h1 {
+
+    background-color: white;
+    /* align-items: center; */
+    text-align: center;
+}
