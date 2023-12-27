@@ -1,0 +1,3 @@
+// singleton
+//Object.create
+
