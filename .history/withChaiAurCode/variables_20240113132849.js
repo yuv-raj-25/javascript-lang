@@ -3,7 +3,7 @@ let accountEmail = "yuvrajchaudhary464@gmail.com"
 var accountNumber = "123456";
 
 let accountState;
-let accountCity;
+let 
 
 
 accountCity = "saharanpur";
