@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yuvraj chaudhary</title>
+</head>
+<body>
+    <h1>yuvraj chaudhary</h1>
+    <button id="start">start</button>
+    
+    <button id="stop">stop</button>
+    
+</body>
+<script>
+    const sayDate = function(str) {
+        console.log(str, Date.now());
+    }
+    
+    let intervalId;  
+    let isIntervalRunning = false; 
+    
+    document.querySelector("#start").addEventListener("click", function() {
+        if (!isIntervalRunning) {
+           
+            intervalId = setInterval(sayDate, 1000, "yuvi ");
+            isIntervalRunning = true;
+            console.log("Started interval");
+        }
+    });
+    
+    document.querySelector("#stop").addEventListener("click", function(e) {
+        if (isIntervalRunning) {
+            // Stop the interval only if it's currently running.
+            clearInterval(intervalId);
+            isIntervalRunning = false;
+            console.log("Stopped interval");
+        }
+    });
+    
+
+</script>
+</html>

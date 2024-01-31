@@ -1,0 +1,14 @@
+.button {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+  }
+
+  /* Define styles for different colors */
+  #blue{ background-color: #ff0000; color: #fff; }
+  #pink { background-color: pink; color: #fff; }
+  #grey{ background-color: grey; color: #000; }
+  #green{ background-color: grey; color: #000; }
+  /* Add more colors as needed */

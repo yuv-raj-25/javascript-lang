@@ -1,0 +1,13 @@
+const promiseOne = new Promise(function(resolve, reject){
+
+    setTimeout(() => {
+        console.log('async ask is completed');
+        
+    }, 1000);
+
+})
+
+promiseOne.then(()=>{
+    console.log('promise is consumed');
+
+})

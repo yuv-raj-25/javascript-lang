@@ -1,0 +1,1 @@
+const buttondocument.querySelectorAll('.button')

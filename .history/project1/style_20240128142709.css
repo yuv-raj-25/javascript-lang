@@ -1,0 +1,23 @@
+.canvas{
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+    align-items:center;
+    /* justify-items: center; */
+    justify-content: center;
+}
+.button {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+  }
+
+  /* Define styles for different colors */
+  #blue{ background-color: blue; color: #fff; }
+  #pink { background-color: pink; color: #fff; }
+  #grey{ background-color: grey; color: #000; }
+  #green { background-color: green; color: #000; }
+  /* Add more colors as needed */
