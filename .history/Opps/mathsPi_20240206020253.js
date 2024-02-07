@@ -1,0 +1,1 @@
+dObject.getOwnPropertyDescriptor(Math.PI)

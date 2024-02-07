@@ -1,0 +1,1 @@
+coObject.getOwnPropertyDescriptor(Math.PI)

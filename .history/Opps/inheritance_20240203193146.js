@@ -1,0 +1,6 @@
+class User{
+    constructor(userName){
+        this.userName = userName
+    }
+    logMe()
+}

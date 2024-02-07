@@ -1,0 +1,40 @@
+const multiplyBy5 = function(nums){
+    return nums *5;
+}
+multiplyBy5.power = 1
+
+console.log(multiplyBy5(5));
+console.log(multiplyBy5.power);
+console.log(multiplyBy5.prototype);
+
+
+
+function createUser(username, score ){
+    this.username = username
+    this.score = score
+
+    return this;
+
+}
+
+// const user = new  createUser('yuvraj',99);
+// console.log(user);
+
+createUser.prototype.increament = function(){
+    this.score++;
+    
+}
+createUser.prototype.printMe = function(){
+   console.log(`score is ${this.score}`);
+
+}
+
+
+const chai = new createUser('chai',25)
+const tea =  new createUser('tea',250)
+
+// chai.increament()
+// tea.increament()
+
+// chai.printMe()
+// tea.printMe()
