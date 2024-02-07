@@ -16,7 +16,7 @@ const yuvi = {
 }
 console.log(Object.getOwnPropertyDescriptor(yuvi,'name'));
 
-Object.defineProperty(yuvi , 'name',{
+Object.defineProperty(yuvi , 'price','name'){
     // writable: false,
     enumerable: false,
     // iteratable: false,

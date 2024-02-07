@@ -16,21 +16,21 @@ const yuvi = {
 }
 console.log(Object.getOwnPropertyDescriptor(yuvi,'name'));
 
-Object.defineProperty(yuvi , 'name',{
-    // writable: false,
-    enumerable: false,
-    // iteratable: false,
-    // configurable: false
-})
+// Object.defineProperty(yuvi , 'name',{
+//     writable: false,
+//     enumerable: false,
+//     iteratable: false,
+//     configurable: false
+// })
 // console.log(Object.getOwnPropertyDescriptor(yuvi,'name'));
 
 
 for (const [key , value ] of Object.entries(yuvi)) {
 
-    if(typeof value !==  'function'){
+    // if(typeof value !==  'function'){
 
-        console.log(`${key} : ${value}`);
-    }
+    // }
+    console.log(`${key} : ${value}`);
 
     
 }

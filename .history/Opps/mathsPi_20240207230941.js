@@ -17,10 +17,10 @@ const yuvi = {
 console.log(Object.getOwnPropertyDescriptor(yuvi,'name'));
 
 Object.defineProperty(yuvi , 'name',{
-    // writable: false,
+    writable: false,
     enumerable: false,
-    // iteratable: false,
-    // configurable: false
+    iteratable: false,
+    configurable: false
 })
 // console.log(Object.getOwnPropertyDescriptor(yuvi,'name'));
 

@@ -9,29 +9,26 @@ const yuvi = {
     price: 2000,
     isAvailable: true,
 
-    istrue:function(){ 
-        console.log('not available ');   
+    istrue:function(){    
     }
 
 }
 console.log(Object.getOwnPropertyDescriptor(yuvi,'name'));
 
-Object.defineProperty(yuvi , 'name',{
-    // writable: false,
-    enumerable: false,
-    // iteratable: false,
-    // configurable: false
-})
+// Object.defineProperty(yuvi , 'name',{
+//     writable: false,
+//     enumerable: false,
+//     iteratable: false,
+//     configurable: false
+// })
 // console.log(Object.getOwnPropertyDescriptor(yuvi,'name'));
 
 
 for (const [key , value ] of Object.entries(yuvi)) {
 
-    if(typeof value !==  'function'){
+    if()
 
-        console.log(`${key} : ${value}`);
-    }
-
+    console.log(`${key} : ${value}`);
     
 }
 
